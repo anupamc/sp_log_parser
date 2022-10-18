@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/anupam/Downloads/code/sp_log_parser/lib/analyser/log_analyser.rb": {
+      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/analyser/log_analyser.rb": {
         "lines": [
           null,
           null,
@@ -29,7 +29,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/lib/parser/log_parser.rb": {
+      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/parser/log_parser.rb": {
         "lines": [
           null,
           null,
@@ -72,7 +72,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/lib/parser/log_reader.rb": {
+      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/parser/log_reader.rb": {
         "lines": [
           null,
           null,
@@ -99,7 +99,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/lib/validator/log_validator.rb": {
+      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/validator/log_validator.rb": {
         "lines": [
           null,
           null,
@@ -116,7 +116,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/lib/presenter/log_presenter.rb": {
+      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/presenter/log_presenter.rb": {
         "lines": [
           null,
           null,
@@ -157,7 +157,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/spec/parser/log_parser_spec.rb": {
+      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/spec/parser/log_parser_spec.rb": {
         "lines": [
           null,
           null,
@@ -206,7 +206,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/spec/parser/log_reader_spec.rb": {
+      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/spec/parser/log_reader_spec.rb": {
         "lines": [
           null,
           null,
@@ -230,6 +230,6 @@
         ]
       }
     },
-    "timestamp": 1666051958
+    "timestamp": 1666093865
   }
 }
