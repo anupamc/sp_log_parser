@@ -17,10 +17,6 @@ module LogProcessor
 
     def call
       parse
-
-      # p '&'*30
-      # p parse.size
-      # p '&'*30
     end
 
     private

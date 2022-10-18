@@ -6,8 +6,5 @@ group :development, :test do
   gem 'require_all'
   gem 'rspec'
   gem 'rubocop'
-  gem 'rubocop-performance'
-  gem 'rubocop-rspec'
-  gem 'simplecov', require: false, group: :test
-  gem 'terminal-table'
+  gem 'simplecov', require: false
 end

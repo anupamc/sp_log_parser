@@ -7,12 +7,12 @@ RSpec.describe LogProcessor::LogParser do
 
   let(:tempfile) do
     Tempfile.new('webserver_log').tap do |file|
-      lines.each { |line| file << "#{line}\n" }
+      data_arr.each { |line| file << "#{line}\n" }
       file.close
     end
   end
 
-  let(:lines) do
+  let(:data_arr) do
     [
       '/help_page/1 126.318.035.038',
       '/contact 184.123.665.067',
@@ -26,7 +26,7 @@ RSpec.describe LogProcessor::LogParser do
 
   describe '#call' do
     context 'when file can be found' do
-    	let(:path) { tempfile.path }
+      let(:path) { tempfile.path }
 
       it 'returns the array of lines' do
         expect(subject.class).to eq(Array)
@@ -35,11 +35,11 @@ RSpec.describe LogProcessor::LogParser do
     end
 
     context	'when file can not be found' do
-    	let(:path) { "some/random/path" }
+      let(:path) { 'some/random/path' }
 
-    	it "throws an error" do
-    	  expect {subject}.to raise_error("Couldn't find file in the given path: some/random/path")
-    	end
+      it 'throws an error' do
+        expect { subject }.to raise_error("Couldn't find file in the given path: some/random/path")
+      end
     end
   end
 end

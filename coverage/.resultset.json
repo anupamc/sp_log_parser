@@ -1,35 +1,35 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/analyser/log_analyser.rb": {
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/lib/analyser/log_analyser.rb": {
         "lines": [
           null,
           null,
           1,
           1,
           1,
-          0,
+          2,
           null,
           null,
           1,
           null,
           1,
-          0,
-          0,
+          2,
+          2,
           null,
           null,
           1,
-          0,
+          12,
           null,
           null,
           1,
-          0,
+          12,
           null,
           null,
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/parser/log_parser.rb": {
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/lib/parser/log_parser.rb": {
         "lines": [
           null,
           null,
@@ -50,10 +50,6 @@
           null,
           1,
           2,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           1,
@@ -72,7 +68,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/parser/log_reader.rb": {
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/lib/parser/log_reader.rb": {
         "lines": [
           null,
           null,
@@ -99,7 +95,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/validator/log_validator.rb": {
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/lib/validator/log_validator.rb": {
         "lines": [
           null,
           null,
@@ -116,40 +112,28 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/lib/presenter/log_presenter.rb": {
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/lib/presenter/log_presenter.rb": {
         "lines": [
           null,
           null,
           1,
-          null,
           1,
           1,
-          1,
-          0,
-          0,
+          2,
+          2,
           null,
           null,
           1,
-          0,
+          2,
           null,
           null,
           1,
           null,
           1,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
+          2,
+          2,
+          2,
+          12,
           null,
           null,
           1,
@@ -157,7 +141,72 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/spec/parser/log_parser_spec.rb": {
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/spec/analyser/log_analyser_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          3,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          6,
+          1,
+          11,
+          11,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          6,
+          1,
+          11,
+          11,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/spec/parser/log_parser_spec.rb": {
         "lines": [
           null,
           null,
@@ -206,7 +255,7 @@
           null
         ]
       },
-      "/Users/anupam/Downloads/code/sp_log_parser/test_log/sp_log_parser/spec/parser/log_reader_spec.rb": {
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/spec/parser/log_reader_spec.rb": {
         "lines": [
           null,
           null,
@@ -228,8 +277,43 @@
           null,
           null
         ]
+      },
+      "/Users/anupam/Downloads/code/test_log_parser/sp_log_parser/spec/presenter/log_presenter_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          3,
+          null,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1666093865
+    "timestamp": 1666136449
   }
 }

@@ -2,8 +2,8 @@
 
 module LogProcessor
   class	LogAnalyser
-    def call(parsed_file)
-      views_counter(parsed_file)
+    def call(parsed_data)
+      views_counter(parsed_data)
     end
 
     private

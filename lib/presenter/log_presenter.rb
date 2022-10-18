@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'terminal-table'
-
 module LogProcessor
   class LogPresenter
     def initialize(views, type)
@@ -10,26 +8,16 @@ module LogProcessor
     end
 
     def call
-      puts form_table
+      log_printer
     end
 
     private
 
-    def form_table
-      Terminal::Table.new(
-        rows: views,
-        headings: ['Path', "#{count_type.capitalize} Views"],
-        title: "#{count_type} page views"
-      )
-    end
-
-    def count_type
-      case type
-      when :total
-        'total'
-      when :unique
-        'unique'
-      end
+    def log_printer
+      p '=' * 18
+      p "#{type.capitalize} page views"
+      p '=' * 18
+      views.each { |key, value| puts "#{key} => #{value}" }
     end
 
     attr_reader :views, :type
