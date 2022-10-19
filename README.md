@@ -60,11 +60,17 @@ $ bundle exec rubocop
 # Design details 
 + [`LogProcessor::LogReader`][1] class is reading the log file.
 + [`LogProcessor::LogParser`][2] class is used to parse the Enumerator received from LogReader and return two different data structure for total view and unique view
-+ [`LogProcessor::LogParser`][3] class is used to sort and count.
-+ [`LogProcessor::LogValidator`][4] class is used to validate.
++ [`LogProcessor::LogAnalyser`][3] class is used to sort and count.
++ [`LogProcessor::LogValidator`][4] module is used to validate, which is extended into LogReader and LogParser class.
 + [`LogProcessor::LogPresenter`][5] class is used to print the required output.
 
 # Possible improvements
-+ The naming of the variables and methods could be more intuitive and would love to get feedback on pair programming
-+ Set that is used as for removal of duplicate data for getting unique view - this can be not so efficient for large data set and need to look into some alternatives in that scenario 
-+ Given the requirement, further edge case scenario can be tested  
++ The naming of the variables and methods could be more intuitive and would love to work further on pair programming  
++ Set is used for the data structure for removal of duplicate data while getting unique view - this can be not so efficient for large data set and need to look into some alternatives in such scenario 
++ Given the requirement, further edge case scenario can be tested in further unit and integration testing
+
+[1]: https://github.com/anupamc/sp_log_parser/blob/main/lib/parser/log_reader.rb
+[2]: https://github.com/anupamc/sp_log_parser/blob/main/lib/parser/log_parser.rb
+[3]: https://github.com/anupamc/sp_log_parser/tree/main/lib/analyser
+[4]: https://github.com/anupamc/sp_log_parser/blob/main/lib/validator/log_validator.rb
+[5]: https://github.com/anupamc/sp_log_parser/blob/main/lib/presenter/log_presenter.rb
