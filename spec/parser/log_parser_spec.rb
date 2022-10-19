@@ -53,7 +53,7 @@ RSpec.describe LogProcessor::LogParser do
       let(:path) { tempfile.path }
 
       it 'throws an error' do
-        expect { subject }.to raise_error("Missing log content at line: 2")
+        expect { subject }.to raise_error('Missing log content at line: 2')
       end
     end
   end

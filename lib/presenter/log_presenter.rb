@@ -14,9 +14,6 @@ module LogProcessor
     private
 
     def log_printer
-      p '=' * 18
-      p "#{type.capitalize} page views"
-      p '=' * 18
       views.each { |key, value| puts "#{key} => #{value}" }
     end
 
