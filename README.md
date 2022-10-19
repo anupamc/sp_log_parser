@@ -58,8 +58,8 @@ $ bundle exec rubocop
 - 100% test covearge has been acvieved and the details can be found at ./coverage/index.html
 
 # Design details 
-+ [`LogProcessor::LogReader`][1] class is reading the log file.
-+ [`LogProcessor::LogParser`][2] class is used to parse the Enumerator received from LogReader and return two different data structure for total view and unique view
++ [`LogProcessor::LogReader`][1] class is reading the log file using [CSV](https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html) which returns an Enumerator.
++ [`LogProcessor::LogParser`][2] class is used to parse the Enumerator received from LogReader and return two different data structure for total view and unique view.
 + [`LogProcessor::LogAnalyser`][3] class is used to sort and count.
 + [`LogProcessor::LogValidator`][4] module is used to validate, which is extended into LogReader and LogParser class.
 + [`LogProcessor::LogPresenter`][5] class is used to print the required output.
