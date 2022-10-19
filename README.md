@@ -1,4 +1,4 @@
-### The challenge
+# The challenge
 ```
 Write a ruby script that:
 
