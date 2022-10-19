@@ -63,6 +63,7 @@ $ bundle exec rubocop
 + [`LogProcessor::LogAnalyser`][3] class is used to sort and count.
 + [`LogProcessor::LogValidator`][4] module is used to validate, which is extended into LogReader and LogParser class.
 + [`LogProcessor::LogPresenter`][5] class is used to print the required output.
++ The whole application has been namespaced under *LogProcessor* domain for avoid any clash while the potential transfer to any structured application
 
 # Possible improvements
 + The naming of the variables and methods could be more intuitive and would love to work further on pair programming  
