@@ -66,9 +66,9 @@ $ bundle exec rubocop
 + The whole application has been namespaced under *LogProcessor* domain for avoid any clash while the potential transfer to any structured application
 
 # Possible improvements
-+ The naming of the variables and methods could be more intuitive and would love to work further on pair programming  
++ The naming of the variables and methods could be more intuitive and would love to work further on this on pair programming  
 + Set is used for the data structure for removal of duplicate data while getting unique view - this can be not so efficient for large data set and need to look into some alternatives in such scenario 
-+ Given the requirement, further edge case scenario can be tested in further unit and integration testing
++ Given the requirement, further edge case scenario can be tested in further unit and integration testing - another potential place to work on pair programming
 
 [1]: https://github.com/anupamc/sp_log_parser/blob/main/lib/parser/log_reader.rb
 [2]: https://github.com/anupamc/sp_log_parser/blob/main/lib/parser/log_parser.rb
