@@ -41,5 +41,20 @@ RSpec.describe LogProcessor::LogParser do
         expect { subject }.to raise_error("Couldn't find file in the given path: some/random/path")
       end
     end
+
+    context 'when log content is missing' do
+      let(:data_arr) do
+        [
+          '/help_page/1 126.318.035.038',
+          '/contact ',
+          '/home 184.123.665.067'
+        ]
+      end
+      let(:path) { tempfile.path }
+
+      it 'throws an error' do
+        expect { subject }.to raise_error("Missing log content at line: 2")
+      end
+    end
   end
 end
